@@ -6,7 +6,7 @@ import "notifications.dart";
 void main() {
   Employee e1 = Developer("Ahmed", 30000, "IS");
   e1.display();
-  PaymentMethod p1 = PaymentMethod(); // error
+  // PaymentMethod p1 = PaymentMethod(); // error
   PaymentMethod p2 = CreditCardPayment();
   List<NotificationService> notifications = [
     EmailNotification(),
